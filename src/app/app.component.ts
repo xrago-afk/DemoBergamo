@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DemoBergamo';
+
+  getVal(){
+    return 6;
+  }
+
+  HTMLstring = "<div><p>Prova</p></div>"
 }
