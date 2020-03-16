@@ -12,5 +12,6 @@ export class AppComponent {
     return 6;
   }
 
-  HTMLstring = "<div><p>Prova</p></div>"
+  HTMLstring = "<div><p>Prova</p></div>";
+  linkurl = "https://google.it";
 }
