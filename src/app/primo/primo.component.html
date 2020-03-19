@@ -1,1 +1,14 @@
-<p>primo works!</p>
+
+<p>{{title}}</p>
+<p [innerHTML]="title"></p>
+<p>title</p>
+<p>the sum 1 + 1 is not {{1 + 2 + getVal()}}</p>
+
+<div>{{HTMLstring}}</div>
+<div [innerHTML]="HTMLstring"></div>
+<div>
+  <p><a href="https://google.it">link</a></p>
+  <p><a [href]="linkurl">link</a></p>
+  <p><a href="{{linkurl}}">link</a></p>
+</div>
+<p>{{titoloinput}} works!</p>
